@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vishalDataSet4" targetNamespace="http://tempuri.org/vishalDataSet4.xsd" xmlns:mstns="http://tempuri.org/vishalDataSet4.xsd" xmlns="http://tempuri.org/vishalDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="vishalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="vishalConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.vishal.My.MySettings.GlobalReference.Default.vishalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RegistrationTableAdapter" GeneratorDataComponentClassName="RegistrationTableAdapter" Name="Registration" UserDataComponentName="RegistrationTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="vishalConnectionString (MySettings)" DbObjectName="vishal.dbo.Registration" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Id, Name, Total_Fees, Pay_Fees, Pending_fees, Pay_Date FROM dbo.Registration</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Total_Fees" DataSetColumn="Total_Fees" />
+              <Mapping SourceColumn="Pay_Fees" DataSetColumn="Pay_Fees" />
+              <Mapping SourceColumn="Pending_fees" DataSetColumn="Pending_fees" />
+              <Mapping SourceColumn="Pay_Date" DataSetColumn="Pay_Date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vishalDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vishalDataSet4" msprop:Generator_UserDSName="vishalDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Registration" msprop:Generator_TableClassName="RegistrationDataTable" msprop:Generator_TableVarName="tableRegistration" msprop:Generator_TablePropName="Registration" msprop:Generator_RowDeletingName="RegistrationRowDeleting" msprop:Generator_RowChangingName="RegistrationRowChanging" msprop:Generator_RowEvHandlerName="RegistrationRowChangeEventHandler" msprop:Generator_RowDeletedName="RegistrationRowDeleted" msprop:Generator_UserTableName="Registration" msprop:Generator_RowChangedName="RegistrationRowChanged" msprop:Generator_RowEvArgName="RegistrationRowChangeEvent" msprop:Generator_RowClassName="RegistrationRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total_Fees" msprop:Generator_ColumnVarNameInTable="columnTotal_Fees" msprop:Generator_ColumnPropNameInRow="Total_Fees" msprop:Generator_ColumnPropNameInTable="Total_FeesColumn" msprop:Generator_UserColumnName="Total_Fees" type="xs:int" />
+              <xs:element name="Pay_Fees" msprop:Generator_ColumnVarNameInTable="columnPay_Fees" msprop:Generator_ColumnPropNameInRow="Pay_Fees" msprop:Generator_ColumnPropNameInTable="Pay_FeesColumn" msprop:Generator_UserColumnName="Pay_Fees" type="xs:int" />
+              <xs:element name="Pending_fees" msprop:Generator_ColumnVarNameInTable="columnPending_fees" msprop:Generator_ColumnPropNameInRow="Pending_fees" msprop:Generator_ColumnPropNameInTable="Pending_feesColumn" msprop:Generator_UserColumnName="Pending_fees" type="xs:int" />
+              <xs:element name="Pay_Date" msprop:Generator_ColumnVarNameInTable="columnPay_Date" msprop:Generator_ColumnPropNameInRow="Pay_Date" msprop:Generator_ColumnPropNameInTable="Pay_DateColumn" msprop:Generator_UserColumnName="Pay_Date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

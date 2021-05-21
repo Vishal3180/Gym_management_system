@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F762FEF8-1C1D-4E68-996F-1303445EFDB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>vishal.My.MyApplication</StartupObject>
+    <RootNamespace>vishal</RootNamespace>
+    <AssemblyName>vishal</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>vishal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>vishal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addequpment.Designer.vb">
+      <DependentUpon>Addequpment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Addequpment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagripview.Designer.vb">
+      <DependentUpon>datagripview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datagripview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FEESDETAIL.Designer.vb">
+      <DependentUpon>FEESDETAIL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FEESDETAIL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gym.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gym.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintance.Designer.vb">
+      <DependentUpon>Maintance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maintancedetail.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maintancedetail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaintanceFormDetail.Designer.vb">
+      <DependentUpon>MaintanceFormDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MaintanceFormDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdi.Designer.vb">
+      <DependentUpon>mdi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mdi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="payfees.Designer.vb">
+      <DependentUpon>payfees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="payfees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payfeesgridviewshow.Designer.vb">
+      <DependentUpon>payfeesgridviewshow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="payfeesgridviewshow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showmentenace.Designer.vb">
+      <DependentUpon>showmentenace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="showmentenace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewallmember.Designer.vb">
+      <DependentUpon>Viewallmember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewallmember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vishalDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vishalDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vishalDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vishalDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vishalDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vishalDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vishalDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vishalDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vishalDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vishalDataSet8.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Addequpment.resx">
+      <DependentUpon>Addequpment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagripview.resx">
+      <DependentUpon>datagripview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEESDETAIL.resx">
+      <DependentUpon>FEESDETAIL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintance.resx">
+      <DependentUpon>Maintance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maintancedetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>maintancedetail.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaintanceFormDetail.resx">
+      <DependentUpon>MaintanceFormDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdi.resx">
+      <DependentUpon>mdi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payfees.resx">
+      <DependentUpon>payfees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payfeesgridviewshow.resx">
+      <DependentUpon>payfeesgridviewshow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showmentenace.resx">
+      <DependentUpon>showmentenace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewallmember.resx">
+      <DependentUpon>Viewallmember.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gym.xsc">
+      <DependentUpon>gym.xsd</DependentUpon>
+    </None>
+    <None Include="gym.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gym.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="gym.xss">
+      <DependentUpon>gym.xsd</DependentUpon>
+    </None>
+    <None Include="maintannacedetails.mht" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="vishalDataSet.xsc">
+      <DependentUpon>vishalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet.xss">
+      <DependentUpon>vishalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet1.xsc">
+      <DependentUpon>vishalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet1.xss">
+      <DependentUpon>vishalDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet2.xsc">
+      <DependentUpon>vishalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet2.xss">
+      <DependentUpon>vishalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet3.xsc">
+      <DependentUpon>vishalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet3.xss">
+      <DependentUpon>vishalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet4.xsc">
+      <DependentUpon>vishalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet4.xss">
+      <DependentUpon>vishalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet5.xsc">
+      <DependentUpon>vishalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet5.xss">
+      <DependentUpon>vishalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet6.xsc">
+      <DependentUpon>vishalDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet6.xss">
+      <DependentUpon>vishalDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet7.xsc">
+      <DependentUpon>vishalDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet7.xss">
+      <DependentUpon>vishalDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet8.xsc">
+      <DependentUpon>vishalDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="vishalDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vishalDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vishalDataSet8.xss">
+      <DependentUpon>vishalDataSet8.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noosa-Aquatic-Gym.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAMAJI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MAMAJI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VISHU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="CrystalReportsCommonObjectModelLib">
+      <Guid>{FDB9B69E-BA79-4B13-9E96-8373AF162AEA}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
