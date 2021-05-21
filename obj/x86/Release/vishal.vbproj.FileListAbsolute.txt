@@ -1,0 +1,40 @@
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.vbprojResolveAssemblyReference.cache
+F:\ATUL\vishal\vishal\obj\x86\Release\Interop.CrystalReportsCommonObjectModelLib.dll
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.vbproj.ResolveComReference.cache
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.Addequpment.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.datagripview.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.FEESDETAIL.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.Form1.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.Form2.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.login.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.Maintance.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.MaintanceFormDetail.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.mdi.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.Resources.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.payfees.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.payfeesgridviewshow.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.showmentenace.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.Viewallmember.resources
+F:\ATUL\vishal\vishal\obj\x86\Release\vishal.vbproj.GenerateResource.Cache
+F:\ATUL\vishal\vishal\bin\Release\vishal.exe.config
+F:\penrive copy 2019\vishal\vishal\bin\Release\vishal.exe.config
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.vbproj.ResolveComReference.cache
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.exe
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.xml
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.pdb
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.vbprojResolveAssemblyReference.cache
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.Addequpment.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.datagripview.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.FEESDETAIL.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.Form1.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.Form2.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.login.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.Maintance.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.MaintanceFormDetail.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.mdi.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.Resources.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.payfees.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.payfeesgridviewshow.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.showmentenace.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.Viewallmember.resources
+F:\penrive copy 2019\vishal\vishal\obj\x86\Release\vishal.vbproj.GenerateResource.Cache

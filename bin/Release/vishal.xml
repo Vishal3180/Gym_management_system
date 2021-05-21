@@ -1,0 +1,572 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+vishal
+</name>
+</assembly>
+<members>
+<member name="T:vishal.DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSetTableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSetTableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:vishal.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:vishal.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:vishal.My.Resources.Resources.images__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vishal.My.Resources.Resources.m">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vishal.My.Resources.Resources.MAMAJI">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vishal.My.Resources.Resources.MAMAJI1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vishal.My.Resources.Resources.Noosa_Aquatic_Gym">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:vishal.My.Resources.Resources.VISHU">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:vishal.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:vishal.vishalDataSet3.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet3.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet3.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet3TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSet3TableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vishal.vishalDataSet6.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet6.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet6.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet6TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSet6TableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vishal.vishalDataSet2.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet2.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet2.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet2TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSet2TableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vishal.vishalDataSet5.equipmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet5.equipmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet5.equipmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet5TableAdapters.equipmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSet5TableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vishal.vishalDataSet8.MaintanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet8.MaintanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet8.MaintanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet8TableAdapters.MaintanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSet8TableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vishal.gym.MaintanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.gym.MaintanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.gym.MaintanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.gym">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.gymTableAdapters.MaintanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.gymTableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.gym,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.gymTableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.gym,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.gymTableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.gym,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.gymTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.gymTableAdapters.TableAdapterManager.UpdateAll(vishal.gym)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.gymTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.gymTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.gymTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vishal.vishalDataSet7.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet7.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet7.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet7TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSet7TableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vishal.vishalDataSet1.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet1.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet1.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet1TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSet1TableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:vishal.vishalDataSet4.RegistrationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:vishal.vishalDataSet4.RegistrationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:vishal.vishalDataSet4.RegistrationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:vishal.vishalDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:vishal.vishalDataSet4TableAdapters.RegistrationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:vishal.vishalDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(vishal.vishalDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(vishal.vishalDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:vishal.vishalDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(vishal.vishalDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:vishal.vishalDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:vishal.vishalDataSet4TableAdapters.TableAdapterManager.UpdateAll(vishal.vishalDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:vishal.vishalDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:vishal.vishalDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:vishal.vishalDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
